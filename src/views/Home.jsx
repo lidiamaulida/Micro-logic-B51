@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <nav style={navbarStyle}>
-        <img style={imageStyle} src="./src/assets/image/home2.png" alt="home" />
+        <img style={imageStyle} src="../src/assets/image/home2.png" alt="home" />
       </nav>
 
       <div className="container-fluid my-3 my-md-5" style={containerStyle}>
