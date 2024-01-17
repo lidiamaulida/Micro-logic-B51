@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <Link to={'/'}>
           <nav style={navbarStyle}>
-            <img style={imageStyle} src="../assets/image/home2.png" alt="home" />
+            <img style={imageStyle} src="../src/assets/image/home2.png" alt="home" />
           </nav>
         </Link>
         
