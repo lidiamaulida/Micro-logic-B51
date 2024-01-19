@@ -1,12 +1,13 @@
 import React from 'react';
 import NavigationItem from '../component/NavigationItem';
+import "../assets/image/home2.png"
 
 const Home = () => {
   return (
     <>
       <nav style={navbarStyle}>
-        {/* <img style={imageStyle} src="./src/assets/image/home2.png" alt="home" /> */}
-        <h1 style={hjudul}>Lets try it!</h1>
+         <img style={imageStyle} src="./src/assets/image/home2.png" alt="home" />
+        {/* <h1 style={hjudul}>Lets try it!</h1> */}
       </nav>
       <div style={hbox}>
       <h1 style={h}>Challange Task</h1>
@@ -31,8 +32,8 @@ const navbarStyle = {
   width: '100%',
   height: '60px',
   display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center'
+  textAlign: 'center',
+  // justifyContent: 'center'
 };
 
 const hbox = {
@@ -46,6 +47,8 @@ const hbox = {
 const hjudul = {
   fontWeight: 'bold',
   fontFamily: 'hasklig',
+  textAlign: 'center',
+  justifyContent: 'center',
   color: '#ffffff'
 }
 
