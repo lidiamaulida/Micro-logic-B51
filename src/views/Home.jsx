@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <nav style={navbarStyle}>
-         <img style={imageStyle} src="./src/assets/image/home2.png" alt="home" />
+         <img style={imageStyle} src="../assets/image/home2.png" alt="home" />
         {/* <h1 style={hjudul}>Lets try it!</h1> */}
       </nav>
       <div style={hbox}>
