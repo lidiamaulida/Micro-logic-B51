@@ -14,7 +14,8 @@ const NavigationItem = ({ to, label }) => {
 const buttonStyle = {
   backgroundColor: '#77ACC7',
   width: '235px',
-  margin: '5px',
+  marginTop: '5px',
+  margin: '15px',
   height: '50px',
   fontWeight: 'bold',
   borderRadius: '10px 10px 10px 10px',

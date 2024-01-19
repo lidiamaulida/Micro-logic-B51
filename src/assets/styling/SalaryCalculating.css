@@ -1,0 +1,55 @@
+.slary-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.slary-container h1 {
+    font-weight: bold;
+}
+
+.salary-input {
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
+
+.input-container input {
+    width: 250px;
+}
+
+.input-container label {
+    margin-top: 5px;
+}
+
+.input-container button {
+    background-color: #77acc7;
+    width: 100px;
+    margin-top: 15px;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    color: #ffffff;
+    background-color: #4C5B6C;
+}
+
+.result-container {
+    padding: 5px;
+    padding-left: 15px;
+    margin: 5px;
+    margin-top: 15px;
+    width: 300px;
+}
