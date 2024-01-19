@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <>
       <nav style={navbarStyle}>
-         <img style={imageStyle} src="../assets/image/home2.png" alt="home" />
-        {/* <h1 style={hjudul}>Lets try it!</h1> */}
+         {/* <img style={imageStyle} src="../assets/image/home2.png" alt="home" /> */}
+        <h1 style={hjudul}>Lets try it!</h1>
       </nav>
       <div style={hbox}>
       <h1 style={h}>Challange Task</h1>
@@ -33,7 +33,7 @@ const navbarStyle = {
   height: '60px',
   display: 'flex',
   textAlign: 'center',
-  // justifyContent: 'center'
+  justifyContent: 'center'
 };
 
 const hbox = {
